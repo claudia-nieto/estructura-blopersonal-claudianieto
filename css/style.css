@@ -276,6 +276,18 @@ HEX CODES:
     border-radius: 40px;
 }
 
+.index-bloque2-article-div2 button:hover {
+    border: rgb(0, 0, 0) 1px solid;
+    padding: 10px 5px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #ccd5c4;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
 .index-bloque2-article-div2 button a {
     border: rgb(0, 0, 0) 0px solid;
     padding: 10px 5px;
