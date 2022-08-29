@@ -124,6 +124,8 @@ HEX CODES:
 
 .et-footer p{
     font-size: 10px;
+    padding: px;
+    margin: 0px;
 }
 
 /* BLOQUE 0 */
@@ -476,9 +478,7 @@ HEX CODES:
 /* SECCIONES INTERNAS */
 
 /* BLOQUE 0 */
-/*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
-
-
+/*.Bloque 0: Banner Principal | pagina1-bloque0*/
 .pagina1-bloque0{
     border: black 0px solid;
     padding: 0px;
@@ -508,6 +508,7 @@ HEX CODES:
 
 
 /* BLOQUE 1 */
+/*.Bloque 1: Frase principal | pagina1-bloque1*/
 .pagina1-div-bloque1{
     width: 100vw;
 }
@@ -539,11 +540,11 @@ HEX CODES:
     font-size: 12pt;
 }
 
-/* --------------------------------------------------------------------------------------- */
 
-/* VIDEO*/
-/* BLOQUE 3 */
-.pagina1-bloque3{
+/* BLOQUE 2 */
+/*.Bloque 2: Un video | pagina1-bloque2*/
+/*.BOOSTRAP*/
+.pagina1-bloque2{
     border: black 0px solid;
     padding: 10px 20px 10px 20px;
     text-align: center;
@@ -552,29 +553,17 @@ HEX CODES:
     margin-right: auto;
 }
 
-/* BLOQUE 2 */
-.pagina2-bloque2{
-    border: black 0px solid;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-/* --------------------------------------------------------------------------------------- */
-
-
-/* BLOQUE 2 */
-.pagina1-bloque2{
+/* BLOQUE 3 */
+/*.Bloque Bloque 3: Tiendas de instagram | pagina1-bloque3*/
+.pagina1-bloque3{
     border: black 0px solid;
     padding: 10px;
     margin: 10px;
     text-align: center;
 }
 
-.pagina1-bloque2-div{
+.pagina1-bloque3-div{
     border: black 1px solid;
     padding: 0px;
     margin: 0px;
@@ -583,7 +572,7 @@ HEX CODES:
     width: 100%;
 }
 
-.pagina1-bloque2-article{
+.pagina1-bloque3-article{
     border: black 1px solid;
     padding: 1px;
     margin: 10px 50px 10px 50px;
@@ -593,7 +582,7 @@ HEX CODES:
     width: 250px;
 }
 
-.pagina1-bloque2-article-div{
+.pagina1-bloque3-article-div{
     border: black 1px solid;
     padding: 0px;
     margin: 0px;
@@ -605,7 +594,7 @@ HEX CODES:
     height: 140px;
 }
 
-.pagina1-bloque2-article h3{
+.pagina1-bloque3-article h3{
     border: black 1px solid;
     padding: 0px;
     margin: 0px;
@@ -614,7 +603,7 @@ HEX CODES:
     font-weight: 900;
 }
 
-.pagina1-bloque2-article p{
+.pagina1-bloque3-article p{
     border: black 1px solid;
     padding: 0px;
     margin: 0px;
@@ -622,67 +611,56 @@ HEX CODES:
     font-size: 8pt;
 }
 
+
 /* --------------------------------------------------------------------------------------- */
-/* BLOQUE FORMULARIO */
-/* BLOQUE 6 */
 
-
-.pagina1-div-bloque6{
-    width: 100vw;
-    background-color:#F6EFE9;
+/* BLOQUE 3 */
+/*.Bloque 3: Mi tienda | pagina2-bloque3*/
+/*.BOOSTRAP*/
+.div-pagina2-bloque3{
+    background-color:#ede3d9;
 }
 
-.pagina1-bloque6{
+.pagina2-bloque3{
     border: black 0px solid;
-    padding: 20px 0px 20px 0px;
-    margin: 0px;
-    max-width: 1366px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 30px 20px 30px 20px;
+    margin: 10px;
     text-align: center;
-    height: 8rem;
-    background-color:#F6EFE9;
-}
-
-.pagina1-bloque6 h2{
-    border: black 0px solid;
-    padding: 10px 0px 10px 0px;
-    margin: 0px;
-    font-size: 20pt;
-}
-.pagina1-bloque5 p {
-    border: black 0px solid;
-    padding: 0px 0px 20px 0px;
-    margin: 0px;
-}
-.pagina1-bloque5 form {
-    border: black 0px solid;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.pagina1-div-bloque7{
-    width: 100vw;
-    background-color:#F6EFE9;
-}
-
-/* BLOQUE BOOTSTRAP */
-.container-sm{
+.pagina2-bloque3 h2{
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.pagina1-div-bloque7-form{
-    margin-left: 10vw;
-    margin-right: 10vw;
+
+/* --------------------------------------------------------------------------------------- */
+/* BLOQUE 4 */
+/*.Bloque 4: Mi FAVORITOS | pagina2-bloque4*/
+/*.BOOSTRAP*/
+
+.pagina2-bloque4{
+    border: black 0px solid;
+    padding: 30px 20px 30px 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.btn-primary {
-    --bs-btn-bg: #af9d89;
-    --bs-btn-border-color: #af9d89;
-    --bs-btn-active-bg: #727a6b;
-    --bs-btn-active-border-color: #727a6b;
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
 }
+
+.cards-wrapper .card{
+    margin: 0.5rem;
+}
+
 
 /* --------------------------------------------------------------------------------------- */
 /* BLOQUE GALERIA */
@@ -700,7 +678,7 @@ HEX CODES:
 .pagina2-grid-container {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 20vh 20vh 20vh;
+    grid-template-rows: 25vh 25vh 25vh 25vh;
     grid-template-areas:
       "imagen1 imagen2 imagen3 imagen3"
       "imagen4 imagen5 imagen6 imagen6"
@@ -772,6 +750,68 @@ HEX CODES:
     text-align: center;
     color:rgb(249, 252, 252); }
 
+
+
+/* --------------------------------------------------------------------------------------- */
+/* BLOQUE FORMULARIO */
+/* BLOQUE 6 */
+
+.pagina1-div-bloque6{
+    width: 100vw;
+    background-color:#F6EFE9;
+}
+
+.pagina1-bloque6{
+    border: black 0px solid;
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 8rem;
+    background-color:#F6EFE9;
+}
+
+.pagina1-bloque6 h2{
+    border: black 0px solid;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    font-size: 20pt;
+}
+.pagina1-bloque5 p {
+    border: black 0px solid;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+}
+.pagina1-bloque5 form {
+    border: black 0px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagina1-div-bloque7{
+    width: 100vw;
+    background-color:#F6EFE9;
+}
+
+/* BLOQUE BOOTSTRAP */
+.container-sm{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pagina1-div-bloque7-form{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.btn-primary {
+    --bs-btn-bg: #af9d89;
+    --bs-btn-border-color: #af9d89;
+    --bs-btn-active-bg: #727a6b;
+    --bs-btn-active-border-color: #727a6b;
+}
 
 /* --------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------- */
